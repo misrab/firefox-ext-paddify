@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "Paddify",
+  "version": "1.0",
+
+  "description": "Adds padding (and possibly other stuff) to <body /> to make reading easier.",
+  "homepage_url": "https://github.com/misrab/firefox-ext-paddify",
+
+  "icons": {
+    "48": "icons/icon-256.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/icon-256.png",
+    "default_title": "paddify"
+  },
+
+  "background": {
+    "scripts": ["paddify.js"]
+  }
+}
